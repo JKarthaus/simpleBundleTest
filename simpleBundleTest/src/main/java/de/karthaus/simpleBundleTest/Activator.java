@@ -49,7 +49,7 @@ public class Activator implements BundleActivator, ManagedService {
 			log.info(BUNDLE_ID + " config not found  - Please give me a config File in Folder config");
 			return;
 		}
-		log.info("mqttGpioActor Config was set.");
+		log.info(BUNDLE_ID + " Config was set.");
 		log.info("Found " + properties.size() + " config Items.");
 	}
 
