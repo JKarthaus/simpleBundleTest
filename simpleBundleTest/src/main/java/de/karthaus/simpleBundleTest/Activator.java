@@ -29,7 +29,7 @@ import org.osgi.service.cm.ManagedService;
 
 public class Activator implements BundleActivator, ManagedService {
 
-	private static final String BUNDLE_ID = "SimpleBundleTest";
+	private static final String BUNDLE_ID = "simpleBundleTest";
 	private ServiceRegistration serviceReg;
 	private Logger log = Logger.getLogger(this.getClass().getName());
 
